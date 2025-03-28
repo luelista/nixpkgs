@@ -45,6 +45,7 @@ ps.buildPythonApplication rec {
 
   pythonRelaxDeps = [
     "shiboken6"
+    "jeepney"
   ];
 
   build-system = [
